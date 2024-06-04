@@ -1,0 +1,129 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0px;
+    padding: 60px;
+    background: #60C5EF;
+}
+
+header{
+    background: #60C5EF;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 10px;
+    width: 90vw;
+}
+
+header h1{
+    font-family: "Bebas Neue", sans-serif;
+    text-align: center;
+    margin: auto;
+    padding-left: 60px;
+    flex: 1;
+    color: white;
+    text-shadow: 0px 4px 4px #A9DBE0;
+    font-size: 2.5rem;
+    font-weight: 400px;
+}
+
+header img {
+    flex: 1;
+    max-width: 50vw;
+    object-fit: cover;
+    padding-right: 30px;
+}
+
+h2{
+    font-family: "Bebas Neue", sans-serif;
+    color: black;
+    padding: 10px;
+}
+
+.equipe {
+    margin: 50px;
+}
+
+.equipe h2{
+    padding-left: 50px;
+    margin-bottom: 18px;
+}
+
+.equipe_photo{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 30px;
+    width: 70vw;
+}
+
+.equipe img {
+    height: 35vh;
+    width: auto;
+    transition: ease-in 1s;
+}
+
+.equipe img:hover {
+    transform: scale(1.5);
+    transition: ease-out 1s;
+}
+
+#wrapper {
+    max-width: 850px;
+    width: 100%;
+    border: none;
+}
+
+#carousel {
+    position: relative;
+    display: flex;
+    overflow: hidden;
+}
+
+.square {
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* color: #bbbbbb; */
+    font-size: 50px;
+    min-width: 200px;
+    height: 200px;
+    /* background-color: #ffffff14; */
+    border-radius: 6px;
+    margin: 20px;
+    transition: 100ms ease-in-out;
+}
+
+.buttons {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: center;
+    padding: 10px;
+}
+
+button {
+    cursor: pointer;
+    margin: 10px 10px;
+    font-size: 20px;
+    background-color: unset;
+    color: black;
+    border: 2px solid black;
+    border-radius: 7px;
+    height: 40px;
+    width: 60px;
+    transition: 60ms ease-in-out;
+}
+
+button:hover {
+    border-color: #f4f4f4;
+    color: #f4f4f4;
+}
