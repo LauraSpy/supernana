@@ -177,4 +177,39 @@ button:hover {
   #conteneur-images img {
     margin-right: 10px; /* Espacement entre les images */
   }
+
+.details {
+    display: flex;
+    flex-direction: column;
+}  
   
+.container_details {
+    display: flex;
+    flex-direction: row;
+    flex : 5;
+}
+
+.card {
+    display: flex;
+    flex-direction: row;
+}
+
+.card h3 {
+    margin: 10px;
+}
+
+.card img {
+    width: 15vw;
+    height: 15vw;
+    border: 1px solid slategrey;
+    border-radius: 5px;
+    margin: 5px;
+}
+
+.card_center {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 20vw;
+}
+
