@@ -101,12 +101,12 @@ h2{
 .equipe img {
     height: 35vh;
     width: auto;
-    transition: ease-in 1s;
+    transition: ease-in 0.5s;
 }
 
 .equipe img:hover {
-    transform: scale(1.5);
-    transition: ease-out 1s;
+    transform: scale(1.2);
+    transition: ease-out 0.5s;
 }
 
 #wrapper {
